@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+	background-color: #fff !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .nav-link{
+	color: #000000;
+}
+.header-area.sticky .d-none{
+	display: block !important;
+}
+.header-area.sticky .d-block{
+	display: none !important;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+#home{
+	background-image: url("../img/Hero-BG.jpg");
+	background-size:cover;
+	color:#FFFFFf;
+	position: relative;
+}
+#home h1{
+	font-size: 65px;
+	margin-top: 180px;
+	margin-right: 80px;
+}
+#home p{
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-right: 90px;
+}
+
+.btn-blanco{
+	border-radius: 0;
+	margin-top: 10px;
+	color: #528EFF;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 40px 0px;
+	transition: all 0.3s ease-in-out;
+}
+#home img{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+#home::before{
+	content: "";
+	background-color:rgba(39,45,237,0.70);
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+#about h2{
+margin-top:160px;
+margin-bottom: 18px;
+font-size:50px;
+}
+#about p{
+font-size:18px;
+}
+.btn-morado{
+background-color: #528EFF;
+	color:#FFFFFF;
+border-radius: 0;
+	padding: 8px 22px;
+	text-align: center;
+	text-transform: capitalize;
+}
+#about-morado{
+	background-color: #528EFF;
+	color: #FFFFFF;
+	padding: 5% 0;
+}
+#about .row:nth-child(2){
+	margin-top: 50px;
+}
+#about-morado .row:nth-child(2){
+	margin-top: 50px;
+}
+.section{
+	padding:0 5%;
+}
+#features{
+	text-align: center;
+}
+.feature{
+	border:1px solid #ccc;
+	border-radius: 12px;
+	padding: 15% 10%;
+	font-size: 16px;
+	color:3878787;
+}
+#features p{
+	color:#C7C7C7;
+}
+.feature h3{
+color: #303132;
+	margin: 20px 0;
+	font-size: 22px;
+	font-weight: 600;
+}
+.feature i{
+	color: #272DED;
+	font-size:26px;
+}
+#features .titulo{
+	margin-bottom: 50px;
+}
+#features .row:nth-child(2){
+	margin-bottom: 30px;
+}
+.team{
+	border:1px solid #ccc;
+	border-radius: 12px;
+	padding: 15% 10%;
+	font-size: 16px;
+	color:3878787;
+}
+#team p{
+	color:#C7C7C7;
+}
+#team{
+	text-align: center;
+}
+.bg-morado{
+	background: linear-gradient(270deg,#528eff,#272DED);
+	padding: 15% 0;
+	margin-top: 12%;
+}
+.team{
+	padding: 20% 10%;
+	background-color: #fff;
+	box-shadow: 0px 4px 50px 0px #ccc;
+	border-radius: 12px;
+}
+.bg-morado .row{
+	margin-top: -20%;
+}
